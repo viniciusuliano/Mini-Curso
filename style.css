@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+header{
+  background-color: #FF9A6C;
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  padding: 10px;
+}
+
+header .logo{
+  width: 200px;
+}
+
+.menu {
+  display: block;
+  justify-content: space-between;
+}
+
+a {
+  padding: 50px;
+  text-decoration: none;
+  color: #ffff;
+}
