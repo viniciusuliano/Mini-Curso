@@ -100,8 +100,58 @@ header {
 
 }
 
+.img-clinic {
+    width: 480px;
+}
+
 .text-clinic {
+    width: 600px;
+    height: 600px;
+    color: #263238;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 40px;
+}
+
+.text-clinic h2 {
+    font-size: 32px;
+}
+
+.text-clinic p {
+    font-size: 18px;
+}
+
+.text-clinic ul {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    gap: 20px;
+}
+
+.container-shop {
+    position: relative;
+    margin-top: 30px;
+    width: 80%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-shop img {
+    position: relative;
+}
+
+.container-shop h2 {
+    font-size: 34px;
+    display: flex;
+    align-items: center;
+    color: #263238;
+}
+
+.container-shop p {
+    position: relative;
+    padding-top: 30px;
+    width: 70%;
 }
